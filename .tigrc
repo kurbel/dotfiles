@@ -1,2 +1,3 @@
 bind generic z !git format-patch -1 %(commit)
 bind generic Z !git format-patch %(commit)..%(head)
+bind main R refresh

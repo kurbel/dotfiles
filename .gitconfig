@@ -9,4 +9,4 @@ rb = rebase
 ci = commit
 [core]
 editor = vim
-	excludesfile = /usr/home/tobias/.gitignore_global
+excludesfile = /usr/home/tobias/.gitignore_global

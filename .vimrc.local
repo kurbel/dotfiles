@@ -1,0 +1,15 @@
+" This is the local config file supporting some indiviual adjustments
+" to the spf13-vim package (https://github.com/spf13/spf13-vim)
+"
+set background=dark
+colorscheme dante
+
+set shiftwidth=8
+set noexpandtab
+set tabstop=8
+
+set scrolloff=5
+
+set mouse=
+
+set colorcolumn=81
