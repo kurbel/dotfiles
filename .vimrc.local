@@ -1,6 +1,6 @@
 " This is the local config file supporting some indiviual adjustments
 " to the spf13-vim package (https://github.com/spf13/spf13-vim)
-"
+
 set background=dark
 colorscheme dante
 
@@ -12,4 +12,37 @@ set scrolloff=5
 
 set mouse=
 
-set colorcolumn=81
+set colorcolumn=121
+
+set cino=(0,u0,U0
+set smarttab
+
+set nospell
+
+set showcmd
+
+" map buffer navigation
+nnoremap <C-[> :bprevious<CR>
+nnoremap <C-]> :bnext<CR>
+
+let mapleader = " "
+
+" mapping YouCompleteMe Commands
+nnoremap <leader>jj :YcmCompleter GoTo<CR>
+nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
+nnoremap <leader>jk :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>st :YcmCompleter GetType<CR>
+nnoremap <leader>sp :YcmCompleter GetParent<CR>
+nnoremap <leader>sd :YcmCompleter GetDoc<CR>
+
+" mapping window splits
+nnoremap <C-w>- :split<CR>
+nnoremap <C-w>\ :vsplit<CR>
+
+let g:solarized_termcolors=16
+color solarized
+
+let g:ycm_min_num_of_chars_for_completion = 2
+let g:ycm_auto_trigger = 1
+let g:ycm_extra_conf_globlist = ['~/develop/*','!~/*']

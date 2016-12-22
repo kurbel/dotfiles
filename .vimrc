@@ -1,3 +1,5 @@
+" This some default-ish vimrc file that can be used standalone
+
 set linebreak
 set showbreak=+++
 set textwidth=100
