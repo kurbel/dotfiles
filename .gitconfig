@@ -1,6 +1,6 @@
 [user]
 name = Tobias Börtitz
-email = tobias@packetwerk.com
+email = tobias@*******
 [alias]
 st = status
 co = checkout
@@ -9,4 +9,4 @@ rb = rebase
 ci = commit
 [core]
 editor = vim
-excludesfile = /usr/home/tobias/.gitignore_global
+excludesfile = ~/.gitignore_global
